@@ -1,0 +1,128 @@
+.ava-tokommerce-account-features {
+  border-top: 1px solid #f8f8f8;
+  border-left: 1px solid #f8f8f8;
+  border-right: 1px solid #f8f8f8; }
+  .ava-tokommerce-account-features-wrap {
+    width: 50%;
+    min-width: 250px;
+    margin-top: 10px; }
+  .ava-tokommerce-account-features thead th {
+    text-align: center;
+    width: 20% !important;
+    border-left: 1px solid #f9f9f9;
+    background: #f9f9f9;
+    padding: 10px 10px !important; }
+    .ava-tokommerce-account-features thead th:first-child {
+      width: 40% !important;
+      border-left: none; }
+  @media screen and (max-width: 782px) {
+    .ava-tokommerce-account-features thead {
+      display: none; } }
+  .ava-tokommerce-account-features tbody td {
+    text-align: center;
+    border-left: 1px solid #f8f8f8;
+    min-width: 90px; }
+  .ava-tokommerce-account-features tbody th {
+    white-space: nowrap; }
+  .ava-tokommerce-account-features tbody td,
+  .ava-tokommerce-account-features tbody th {
+    padding: 5px 10px !important; }
+    .ava-tokommerce-account-features tbody td.selected,
+    .ava-tokommerce-account-features tbody th.selected {
+      background: #f9f9f9; }
+  @media screen and (max-width: 782px) {
+    .ava-tokommerce-account-features tbody {
+      display: none; } }
+  .ava-tokommerce-account-features tfoot td {
+    padding: 8px 5px !important;
+    text-align: center;
+    border-left: 1px solid #f8f8f8; }
+    .ava-tokommerce-account-features tfoot td input {
+      margin: 0 !important; }
+      .ava-tokommerce-account-features tfoot td input:disabled {
+        background: #fff; }
+      @media screen and (max-width: 782px) {
+        .ava-tokommerce-account-features tfoot td input {
+          float: right; } }
+    @media screen and (max-width: 782px) {
+      .ava-tokommerce-account-features tfoot td {
+        text-align: left; }
+        .ava-tokommerce-account-features tfoot td:before {
+          content: attr(data-title);
+          font-weight: 700; } }
+  @media screen and (max-width: 782px) {
+    .ava-tokommerce-account-features tfoot th {
+      display: none; } }
+
+.ava-tokommerce-couriers:after {
+  content: "";
+  display: block;
+  width: 100%;
+  clear: both; }
+
+.ava-tokommerce-couriers-wrap {
+  background-color: #fff;
+  padding: 15px 15px 0 15px;
+  width: 50%;
+  float: left; }
+  .ava-tokommerce-couriers-wrap.no-items {
+    display: none;
+    width: 0%; }
+  .ava-tokommerce-couriers-wrap.full-width {
+    width: 100%; }
+  @media screen and (max-width: 782px) {
+    .ava-tokommerce-couriers-wrap {
+      width: 100% !important; } }
+
+.ava-tokommerce-couriers-item {
+  margin-bottom: 0;
+  cursor: move; }
+  .ava-tokommerce-couriers-item-inner {
+    margin-right: 15px; }
+  .ava-tokommerce-couriers-item-info {
+    padding: 15px 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1; }
+    .ava-tokommerce-couriers-item-info::before {
+      content: "\f545";
+      font-family: dashicons;
+      display: inline-block;
+      line-height: 1;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: inherit;
+      text-transform: none;
+      text-rendering: auto;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+      vertical-align: top;
+      text-align: center;
+      -webkit-transition: color .1s ease-in;
+      transition: color .1s ease-in;
+      margin-top: 2px;
+      margin-right: 15px;
+      color: #666; }
+    .ava-tokommerce-couriers-item-info label {
+      font-weight: bold; }
+    .ava-tokommerce-couriers-item-info-toggle {
+      float: right; }
+      .ava-tokommerce-couriers-item-info-toggle a {
+        text-decoration: none; }
+    .ava-tokommerce-couriers-item-info-link {
+      display: none;
+      padding-left: 63px;
+      font-size: small !important; }
+      .ava-tokommerce-couriers-item-info-link a {
+        text-decoration: none; }
+
+.ava-tokommerce-services-item {
+  display: none;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 7px 7px 7px 77px;
+  border-left: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1; }
